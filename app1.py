@@ -38,7 +38,3 @@ if user_input and button:
   y_pred = np.argmax(output.logits.detach().numpy(),axis=1)
   st.write('Prediction: ', d[y_pred[0]])
 
-!pip install streamlit
-
-!pip install transformers
-
